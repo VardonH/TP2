@@ -4,7 +4,7 @@ import org.junit.*;
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
-public class PalindromeCheckerTest {
+public class PalindromeCheckerMockitoTest {
 	// On déclare les objets nécessaires aux tests
 	PalindromeCheckerDI checker;
 	Inversor inversor;

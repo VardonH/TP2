@@ -2,7 +2,6 @@ package example;
 
 /**
  * PalindromeChecker avec injection de dépendance
- * @author rbastide
  */
 public class PalindromeCheckerDI {
 
@@ -11,7 +10,7 @@ public class PalindromeCheckerDI {
 	// La dépendance est "injectée" par le constructeur
 	public PalindromeCheckerDI(Inversor inversor) {
 		this.inversor = inversor;
-	}	
+	}
 
 	/**
 	 * Détermine si une chaine est un palindrome
@@ -21,6 +20,6 @@ public class PalindromeCheckerDI {
 	 */
 	public boolean estPalindrome(String s) {
 		return inversor.inverse(s).equals(s);
-	}	
-	
+	}
+
 }

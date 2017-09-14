@@ -1,7 +1,6 @@
 package example;
 
 public class PalindromeCheker {
-
 	// La dépendance est créée dans la classe
 	private final Inversor inversor = new Inversor();
 
@@ -14,5 +13,4 @@ public class PalindromeCheker {
 	public boolean estPalindrome(String s) {
 		return inversor.inverse(s).equals(s);
 	}
-
 }
