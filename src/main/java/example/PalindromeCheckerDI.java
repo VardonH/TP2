@@ -13,8 +13,7 @@ public class PalindromeCheckerDI {
 	}
 
 	/**
-	 * Détermine si une chaine est un palindrome
-	 *
+	 * Détermine si une chaine est un palindrome	 *
 	 * @param s la chaine à tester (non nulle)
 	 * @return vrai si s est un palindrome, faux sinon
 	 */
