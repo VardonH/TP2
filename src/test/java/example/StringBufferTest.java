@@ -22,7 +22,7 @@ public class StringBufferTest {
     public void testDelete() {
                 buffer.deleteCharAt(2);
                 assertEquals(4, buffer.length());
-                assertEquals("hllo", buffer.toString() );
+                assertEquals("helo", buffer.toString() );
     }
  
 }
